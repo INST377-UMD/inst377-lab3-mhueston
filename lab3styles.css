@@ -8,10 +8,14 @@ body{
     text-align: center;
     color: rgb(255, 255, 255);
     border-radius: 25px;
+    overflow: auto; 
 }
-.nav1{
-    float:left;
-    width: 30%;
+
+.nav1, .nav2, .nav3 {
+    float: left; 
+    width: 33.33%;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 .nav1 a:link, .nav1 a:visited, .nav2 a:link, .nav2 a:visited, .nav3 a:link, .nav3 a:visited {
@@ -24,15 +28,6 @@ body{
     background-color: rgb(141, 169, 196);
 }
 
-.nav2{
-    float:center;
-    width: 30%;
-}
-.nav2{
-    float:right;
-    width: 30%;
-}
-
 .main{
     background-color: rgb(255, 255, 255);
     float: left;
@@ -43,7 +38,7 @@ body{
 
 #name:focus{
 
-    width: 60%
+    width: 60%;
 }
 
 .sidebar{
