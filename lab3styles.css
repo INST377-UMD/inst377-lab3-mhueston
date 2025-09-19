@@ -1,0 +1,73 @@
+body{
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav{
+    background-color: rgb(19, 64, 116);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+.nav1{
+    float:left;
+    width: 30%;
+}
+
+.nav1 a:link, .nav1 a:visited, .nav2 a:link, .nav2 a:visited, .nav3 a:link, .nav3 a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.nav1 a:hover, .nav2 a:hover, .nav3 a:hover {
+    color: rgb(19, 64, 116);
+    background-color: rgb(141, 169, 196);
+}
+
+.nav2{
+    float:center;
+    width: 30%;
+}
+.nav2{
+    float:right;
+    width: 30%;
+}
+
+.main{
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 66%;
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+#name:focus{
+
+    width: 60%
+}
+
+.sidebar{
+
+    background-color: rgb(141, 169, 196);
+    float: right;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.sidebar:hover{
+
+    background-color: rgb(200, 215, 229);
+
+}
+
+.footer {
+    background-color: rgb(19, 49, 92);
+    color:rgb(255, 255, 255);
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
